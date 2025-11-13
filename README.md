@@ -1,19 +1,19 @@
-# Flowlink 🚀
+# Flowlink
 
 **A powerful Flutter mobile application integrated with n8n workflow automation.**
 
 Flowlink is a cross-platform mobile/web app that seamlessly connects with n8n, allowing you to trigger and manage automation workflows directly from your smartphone or web browser.
 
-## ✨ Features
+Features
 
-- 🔗 **n8n Integration**: Connect with any n8n instance (local or cloud)
-- 📤 **Webhook Triggering**: Trigger workflows with custom JSON payloads
-- 🧪 **Connection Testing**: Verify n8n connectivity before sending data
-- 📱 **Cross-Platform**: Works on iOS, Android, Web, Linux, macOS, and Windows
-- 🎨 **Modern UI**: Clean, intuitive Material Design interface
-- ⚡ **Real-time Response**: Instant feedback on workflow execution
+**n8n Integration**: Connect with any n8n instance (local or cloud)
+**Webhook Triggering**: Trigger workflows with custom JSON payloads
+**Connection Testing**: Verify n8n connectivity before sending data
+**Cross-Platform**: Works on iOS, Android, Web, Linux, macOS, and Windows
+**Modern UI**: Clean, intuitive Material Design interface
+**Real-time Response**: Instant feedback on workflow execution
 
-## 📋 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Flutter SDK (v3.9.2+)
@@ -52,13 +52,13 @@ n8n start
 
 Then access n8n at: `http://localhost:5678`
 
-## 📚 Documentation
+##Documentation
 
 - **[Setup Guide](./SETUP_GUIDE.md)** - Complete installation and configuration
 - **[Quick Start](./QUICK_START.md)** - Quick reference card
 - **[n8n Integration Guide](./N8N_INTEGRATION_GUIDE.md)** - Detailed n8n setup
 
-## 🔧 Architecture
+##Architecture
 
 ```
 lib/
@@ -136,22 +136,22 @@ flutter test
 flutter format lib/
 ```
 
-## 📦 Dependencies
+##Dependencies
 
 - **flutter**: Flutter SDK
 - **http**: HTTP client for API calls
 - **cupertino_icons**: iOS-style icons
 - **json_annotation**: JSON serialization
 
-## 🤝 Contributing
+##Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
+##License
 
 This project is open source and available under the MIT License.
 
-## 🆘 Troubleshooting
+##Troubleshooting
 
 ### Connection Failed
 - Verify n8n is running
@@ -168,13 +168,13 @@ This project is open source and available under the MIT License.
 - Or set up a CORS proxy
 - Check browser console for errors
 
-## 📞 Support
+##Support
 
 - [n8n Documentation](https://docs.n8n.io/)
 - [Flutter Documentation](https://flutter.dev/)
 - Check GitHub Issues for known problems
 
-## 🚀 Roadmap
+##Roadmap
 
 - [ ] Advanced authentication (API keys, OAuth)
 - [ ] Workflow list view
@@ -185,6 +185,7 @@ This project is open source and available under the MIT License.
 
 ---
 
-**Made with ❤️ for automation enthusiasts**
+**Made with for automation enthusiasts**
 
 *Last Updated: November 11, 2025*
+
