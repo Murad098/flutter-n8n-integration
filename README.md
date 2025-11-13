@@ -13,14 +13,14 @@ Features
 **Modern UI**: Clean, intuitive Material Design interface
 **Real-time Response**: Instant feedback on workflow execution
 
-## Quick Start
+##Quick Start
 
-### Prerequisites
+##Prerequisites
 - Flutter SDK (v3.9.2+)
 - n8n instance (local or remote)
 - Optional: Docker (for easy n8n setup)
 
-### Installation
+##Installation
 
 ```bash
 # Clone the repository
@@ -86,30 +86,30 @@ final result = await service.triggerWorkflow({
 final workflows = await service.getWorkflows();
 ```
 
-## 🎯 Usage Steps
+##Usage Steps
 
-### 1. Launch Flowlink
+## 1. Launch Flowlink
 ```bash
 flutter run -d chrome
 ```
 
-### 2. Configure n8n
+## 2. Configure n8n
 - Enter n8n Base URL: `http://localhost:5678`
 - Click "Test Connection"
 
-### 3. Create Webhook in n8n
+## 3. Create Webhook in n8n
 - Add "Webhook" node to workflow
 - Set method to "POST"
 - Deploy workflow
 
-### 4. Trigger Workflow from Flowlink
+## 4. Trigger Workflow from Flowlink
 - Paste webhook URL
 - Enter JSON payload
 - Click "Trigger Workflow"
 
-## 🛠️ Development
+## Development
 
-### Building for Production
+## Building for Production
 
 **Android:**
 ```bash
@@ -188,4 +188,5 @@ This project is open source and available under the MIT License.
 **Made with for automation enthusiasts**
 
 *Last Updated: November 11, 2025*
+
 
